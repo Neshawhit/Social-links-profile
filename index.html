@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@400;600;700&family=Young+Serif&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    /* # Front-end Style Guide
+font-family: 'Inter', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Young Serif', serif;
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Green: hsl(75, 94%, 57%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 20%)
+- Dark Grey: hsl(0, 0%, 12%)
+- Off Black: hsl(0, 0%, 8%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 14px
+
+### Font
+
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 600, 700 */
+    html {
+      align-items: center;
+    }
+
+    body {
+      background-color: black;
+      align-items: center;
+      text-align: center;
+
+    }
+
+    h2 {
+      color: hsl(0, 0%, 100%);
+    }
+
+    p {
+      color: hsl(0, 0%, 100%);
+    }
+
+    h3 {
+      color: hsl(75, 94%, 57%);
+    }
+
+    .button:hover {
+      background-color: hsl(75, 94%, 57%);
+    }
+
+    .button {
+      width: 100%;
+      background-color: hsl(0, 0%, 20%);
+      color: hsl(0, 0%, 100%);
+      border-radius: 8px;
+      font-size: 14px;
+      padding: 14px 40px;
+      margin: 5px;
+      border: none;
+    }
+
+    img {
+      border-radius: 50%;
+      width: 50%;
+      height: 60%;
+      display: block;
+      margin: auto;
+    }
+
+    .btns {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+    .card {
+      display: flow;
+      background-color: hsl(0, 0%, 8%);
+      margin: auto;
+      width: 350px;
+      padding: 50px;
+      border-radius: 25px;
+
+    }
+
+    .attribution {
+      color: white;
+      font-size: 11px;
+      text-align: center;
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="card">
+    <img 
+    src= "assets/images/avatar-jessica.jpeg"
+      alt="Jessica Randall Image">
+    <h2>Jessica Randall</h2>
+    <h3>London, United Kingdom</h3>
+    <p>"Front-end developer and avid reader."</p>
+
+    <div class="btns">
+      <button class="button">GitHub</button>
+      <button class="button">Frontend Mentor</button>
+      <button class="button"> LinkedIn</button>
+      <button class="button">Twitter</button>
+      <button class="button"> Instagram</button>
+    </div>
+
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/Neshawhit">Antwanesha Whitmire</a>.
+  </div>
+</body>
+
+</html>
